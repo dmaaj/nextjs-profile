@@ -1,0 +1,25 @@
+.profile {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.nav-text {
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  h1 {
+    display: inline;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+}
+.tags {
+  font-size: 25px;
+}
+.active{
+  color: $primarycolor !important;
+}

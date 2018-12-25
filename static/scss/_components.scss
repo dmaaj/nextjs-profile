@@ -1,0 +1,69 @@
+.bg{
+    background-color: #ffffff !important;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.icon{
+    width: 45px;
+    height: 45px;
+    border: 3px solid #cacaca;
+    border-radius: 50%;
+    position: fixed;
+    background-color: $primarycolor;
+    padding: 0px;
+    top: 40vh;
+    font-size: 28px;
+
+    &:hover{
+        background-color: darken($primarycolor, 5%);
+    }
+}
+
+.next{
+    @extend .icon;
+    
+    right: 70px;
+
+}
+
+.prev{
+    @extend .icon;
+    left: 70px;
+}
+
+// .detail-page {
+//     overflow: auto;
+//     box-sizing: border-box;
+//     padding: 20px;
+//     height: 100vh;
+//     // background-color: #03a9f4;
+//     transition: transform 0.5s, opacity 0.5s;
+  
+//     &.transition-appear {
+//       opacity: 0;
+//       transform: translate3d(100%, 0, 0);
+//     }
+  
+//     &.transition-appear.transition-appear-active {
+//       opacity: 1;
+//       transform: translate3d(0, 0, 0);
+//     }
+//     &.transition-leave {
+//       opacity: 1;
+//       transform: translate3d(0, 0, 0);
+//     }
+  
+//     &.transition-leave.transition-leave-active {
+//       opacity: 0;
+//       transform: translate3d(100%, 0, 0);
+//     }
+//   }
+
+.transition{
+    -webkit-transition: all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	-ms-transition: all 2s ease-in-out;
+	transition: all 2s ease-in-out;
+}

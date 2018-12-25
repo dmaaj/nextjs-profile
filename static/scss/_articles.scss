@@ -1,0 +1,13 @@
+.articles{
+    @extend .bg;
+    background-position: top right;
+    background-image: url('../img/Oval.png');
+    text-align: center;
+    height: 70vh;
+    margin-top: 20px;
+
+    h3{
+        font-weight: bold;
+    }
+}
+
